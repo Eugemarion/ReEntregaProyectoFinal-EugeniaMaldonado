@@ -1,0 +1,329 @@
+body {
+  background-color: #D5B0AC !important;
+}
+
+h2 {
+  color: black;
+}
+
+.container-fluid {
+  background-color: #D5B0AC;
+}
+
+.nav-item a {
+  color: black;
+}
+
+nav ul li:hover {
+  background: #CEA0AE;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+.container h1 {
+  color: black;
+  font-size: 50px;
+}
+.container img {
+  width: 750px;
+  border-color: black;
+  border-style: solid;
+}
+.container p {
+  color: black;
+  font-size: 35px;
+}
+
+.containervideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+.containervideo video {
+  border-color: black;
+  border-width: 0.5em;
+  border-style: double;
+}
+
+.contenedor1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contenedor1 figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(168, 89, 166, 0.59);
+  cursor: pointer;
+}
+.contenedor1 figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor1 figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(147, 80, 126, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.contenedor1 figure .capa p {
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+.contenedor1 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenedor1 figure:hover > .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.contenedor2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contenedor2 figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(168, 89, 166, 0.59);
+  cursor: pointer;
+}
+.contenedor2 figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor2 figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(147, 80, 126, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.contenedor2 figure .capa p {
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+.contenedor2 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenedor2 figure:hover > .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.contenedor3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contenedor3 figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(168, 89, 166, 0.59);
+  cursor: pointer;
+}
+.contenedor3 figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor3 figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(147, 80, 126, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.contenedor3 figure .capa p {
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+.contenedor3 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenedor3 figure:hover > .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.form {
+  background-color: #D5B0AC;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1m;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+
+.form-container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4m;
+  color: white;
+}
+
+.form-input {
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 0.2em;
+}
+
+.form-input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+
+.form-cta {
+  font-size: 1rem;
+  background-color: #CEA0AE;
+  color: white;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: #684551;
+  margin-top: auto;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box img {
+  width: 100px;
+}
+.pie-pagina .grupo-1 .box h2 {
+  color: white;
+  margin-bottom: 25%;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+  color: white;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social i {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: transparent;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social i:hover > .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+.pie-pagina .grupo-2 {
+  background-color: #CEA0AE;
+  padding: 15px 10px;
+  text-align: center;
+  color: #684551;
+}
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+}
+
+/*# sourceMappingURL=styleindex.css.map */
